@@ -14,6 +14,10 @@ final class Day02Tests: XCTestCase {
 
     func testPart1() throws {
         let challenge = Day02(data: testData)
+        
+        print("\n🎄 Advent of Code // day 2 // tests")
+        print("Test part 1: \(challenge.part1())")
+        
         XCTAssertEqual(String(describing: challenge.part1()), "2")
     }
     
@@ -28,6 +32,9 @@ final class Day02Tests: XCTestCase {
 
     func testPart2() throws {
         let challenge = Day02(data: testData2)
+        
+        print("Test part 2: \(challenge.part2())\n")
+        
         XCTAssertEqual(String(describing: challenge.part2()), "4")
     }
 }
